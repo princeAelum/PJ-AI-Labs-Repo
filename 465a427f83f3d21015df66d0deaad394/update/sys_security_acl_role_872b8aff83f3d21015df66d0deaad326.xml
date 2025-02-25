@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 12:19:33</sys_created_on>
+        <sys_id>872b8aff83f3d21015df66d0deaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1603221_pj_ai_la_device_request.x_1603221_pj_ai_la.device management</sys_name>
+        <sys_package display_value="PJ AI Labs" source="x_1603221_pj_ai_la">465a427f83f3d21015df66d0deaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PJ AI Labs">465a427f83f3d21015df66d0deaad394</sys_scope>
+        <sys_security_acl display_value="x_1603221_pj_ai_la_device_request">362b8aff83f3d21015df66d0deaad323</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_872b8aff83f3d21015df66d0deaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 12:19:33</sys_updated_on>
+        <sys_user_role display_value="x_1603221_pj_ai_la.device management" name="x_1603221_pj_ai_la.device management">549a827f83f3d21015df66d0deaad3f5</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
