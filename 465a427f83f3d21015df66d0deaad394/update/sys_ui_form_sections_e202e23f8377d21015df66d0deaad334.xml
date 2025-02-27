@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e202e23f8377d21015df66d0deaad334" sys_domain="global" table="x_1603221_pj_ai_la_ai_devices" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 13:59:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa02e23f8377d21015df66d0deaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1603221_pj_ai_la_ai_devices" name="x_1603221_pj_ai_la_ai_devices" sys_domain="global" view="Default view">e202e23f8377d21015df66d0deaad334</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1603221_pj_ai_la_ai_devices" sys_domain="global" view="Default view">afbc96778377d21015df66d0deaad34a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 13:59:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 06:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0500e048300221015df66d0deaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1603221_pj_ai_la_ai_devices" name="x_1603221_pj_ai_la_ai_devices" sys_domain="global" view="Default view">e202e23f8377d21015df66d0deaad334</sys_ui_form>
+            <sys_ui_section caption="Price &amp; Warranty" display_value="Price &amp; Warranty" name="x_1603221_pj_ai_la_ai_devices" sys_domain="global" view="Default view">2050ca048300221015df66d0deaad3cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 06:10:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1603221_pj_ai_la_ai_devices</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 13:59:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e202e23f8377d21015df66d0deaad334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1603221_pj_ai_la_ai_devices</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PJ AI Labs" source="x_1603221_pj_ai_la">465a427f83f3d21015df66d0deaad394</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PJ AI Labs">465a427f83f3d21015df66d0deaad394</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e202e23f8377d21015df66d0deaad334</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 13:59:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="962b4aff83f3d21015df66d0deaad3aa" extends="task" label="Device Request" max_length="40" name="x_1603221_pj_ai_la_device_request" type="collection"/>
+    <element db_object_id="962b4aff83f3d21015df66d0deaad3aa" extends="task" label="Device Request" max_length="40" name="x_1603221_pj_ai_la_device_request" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expiration_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_delivery_date_dr" type="glide_date"/>
+        <element label="Device Name" mandatory="true" max_length="32" name="device_name" reference="x_1603221_pj_ai_la_ai_devices" type="reference"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" hint="This field shows the delivery date of the requested item." label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="1000" name="u_device_description" read_only="true" type="string"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
+    </element>
 </database>
