@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Order AI Devices">9970a0f08304221015df66d0deaad3fc</cat_item>
+        <cat_variable>IO:b2f56c788304221015df66d0deaad3d0</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Field Validation</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+
+	//Type appropriate comment here, and begin script below
+	var quant = g_form.getValue('choose_quantity');
+	if (isNaN(quant)) {
+		alert("You can input only numbers in the quantity");
+	}
+	else {
+		if (quant > 3) {
+			g_form.setMandatory("business_justification", true);
+		}
+		else{
+			g_form.setMandatory("business_justification", false);
+		}
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 09:16:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c63dbcb48384221015df66d0deaad3b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Field Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PJ AI Labs" source="x_1603221_pj_ai_la">465a427f83f3d21015df66d0deaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PJ AI Labs">465a427f83f3d21015df66d0deaad394</sys_scope>
+        <sys_update_name>catalog_script_client_c63dbcb48384221015df66d0deaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 09:20:49</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c63dbcb48384221015df66d0deaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 09:16:50</sys_created_on>
+        <sys_id>b71eb0388384221015df66d0deaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 09:16:50</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
