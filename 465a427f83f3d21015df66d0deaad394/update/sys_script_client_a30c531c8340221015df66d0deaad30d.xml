@@ -16,10 +16,19 @@
 			g_form.setSectionDisplay("device_details", false);
 			g_form.setSectionDisplay("delivery_details", false);
 		}
+		else {
+			g_form.getReference('device_name', getDetails);
+		}
 	}
 	catch (error) {
 		Alert("The Error is: " + error.message);
 	}
+}
+function getDetails(details) {
+	g_form.setValue('u_model', details.model_number);
+	g_form.setValue('u_device_description', details.short_description);
+	g_form.setValue('u_price', details.u_price_1);
+	g_form.setValue('u_expiration_date', details.warranty_expiration);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -27,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a30c531c8340221015df66d0deaad30d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Hide Sections on Device Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="PJ AI Labs" source="x_1603221_pj_ai_la">465a427f83f3d21015df66d0deaad394</sys_package>
@@ -35,7 +44,7 @@
         <sys_scope display_value="PJ AI Labs">465a427f83f3d21015df66d0deaad394</sys_scope>
         <sys_update_name>sys_script_client_a30c531c8340221015df66d0deaad30d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 09:59:16</sys_updated_on>
+        <sys_updated_on>2025-02-28 14:04:08</sys_updated_on>
         <table>x_1603221_pj_ai_la_device_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

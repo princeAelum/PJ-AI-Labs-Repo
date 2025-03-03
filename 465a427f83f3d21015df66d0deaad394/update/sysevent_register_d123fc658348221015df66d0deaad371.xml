@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>This event is created for scheduled job.</description>
+        <event_name>x_1603221_pj_ai_la.pickup</event_name>
+        <fired_by>Scheduled job</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>pickup</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-02 16:44:51</sys_created_on>
+        <sys_id>d123fc658348221015df66d0deaad371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1603221_pj_ai_la.pickup</sys_name>
+        <sys_package display_value="PJ AI Labs" source="x_1603221_pj_ai_la">465a427f83f3d21015df66d0deaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PJ AI Labs">465a427f83f3d21015df66d0deaad394</sys_scope>
+        <sys_update_name>sysevent_register_d123fc658348221015df66d0deaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-02 16:50:31</sys_updated_on>
+        <table>x_1603221_pj_ai_la_device_request</table>
+    </sysevent_register>
+</record_update>
